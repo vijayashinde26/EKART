@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ekart Products</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='static/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    
+    <style>
+      body {
+        background-image: url('static/images/ekart.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    </style>
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="row mb-2">
+            <div class="col mt-3">
+                <nav class="navbar p-3 navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html"><strong>Ekart</strong></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                          </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="logout.html">Logout</a>
+                          </li>
+                          <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div><!-- end of 1st row-->
+        <div class="row my-4">
+          <div class="col-md-3 ps-2">
+              <h4>Filter by category</h4>
+              <hr>
+              <a class="anchor" href="">All</a><br>
+              <a class="anchor" href="">Clothing</a><br>
+              <a class="anchor" href="">Sports wear</a><br>
+              <a class="anchor" href="">Electronics</a><br>
+
+              <h4>Filter by Price</h4>
+              <hr>
+              <form action="">
+                <div class="mb-3">
+                        <label for="Input1" class="form-label">MIN </label>
+                        <input type="text" class="form-control" id="Input1" placeholder="99">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Input2" class="form-label">MAX</label>
+                        <input type="text" class="form-control" id="Input2" placeholder="1000">
+                    </div>
+                    <div class="mb-3">
+                      <input type="button" class="btn btn-primary" value="Go">&nbsp;&nbsp;&nbsp;
+                  </div>
+              </form>
+              <h4>Sort by Price</h4>
+              <hr>
+              <a class="anchor" href="#">High to low</a><br>
+              <a class="anchor" href="#">Low to High</a><br>
+          </div>
+          <div class="col-md-9">
+             <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="static/images/product1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                  </div>
+                </div>
+             </div><!-- product 1 -->
+               <div class="col">
+                 <div class="card" style="width: 18rem;">
+                   <img src="static/images/product2.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Product 2</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <a href="#" class="btn btn-primary">View Details</a>
+                   </div>
+                 </div>
+              </div><!-- product 2 -->
+                 <div class="col">
+                   <div class="card" style="width: 18rem;">
+                     <img src="static/images/product3.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">Product 3</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <a href="#" class="btn btn-primary">View Details</a>
+                     </div>
+                   </div>
+                </div><!-- product 3-->
+          </div>
+      </div><!-- end of 2nd row-->
+        <div class="row m-1">
+            <div class="col bg-secondary me-2 p-3">
+              <i class="bi bi-house-door-fill"></i><b>Address</b><br>
+                xyz house no.,<br>
+                AB Street,<br>
+                DEJHS K,<br>
+                Pune-421131<br>
+            </div>
+            <div class="col bg-secondary me-2 p-3">
+              <i class="bi bi-share-fill"></i><b>Links</b> <br>
+                <a class="anchor" href="index.html">HOME</a><br>
+                <a class="anchor" href="about.html">About</a><br>
+                <a class="anchor" href="contact.html">Contact</a><br>
+            </div>
+            <div class="col bg-secondary p-3">
+                <b>Social Media Icons</b><br>
+                <i class="bi bi-envelope-at-fill"></i><p>Email: <a class="anchor" id="gmaillink" href='vijayashinde26102001@gmail.com'>My Gmail</a></p><br>
+                <i class="bi bi-linkedin"></i><p>LinkedIn: <a class="anchor" href="https://www.linkedin.com/in/vijaya-shinde-27a310228">My Linkdin Profile</a></p><br>
+            </div>
+        </div><!-- end of 3rd row-->
+    </div>
+    <script src='static/js/bootstrap.min.js'></script>
+    <script src='static/js/popper.js'></script>
+</body>
+</html>
+</html>
